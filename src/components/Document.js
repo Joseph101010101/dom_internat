@@ -6,7 +6,7 @@ export default function Document() {
     <div className="Document">
       <SomeForms />
       <div className="document-container">
-        <div className="nav-document">
+        {/* <div className="nav-document">
           <ul className="ul-nav-document">
             <li className="li-nav-document">
               <a className="a-nav-document">Государственное задание</a>
@@ -52,7 +52,7 @@ export default function Document() {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
         <div className="document-place">
           <h3>Государственное задание</h3>
           <div className="document-item-box">

@@ -841,9 +841,11 @@ form{
   padding-top: 4%;
 }
 .document-container{
-  display: grid;
+  /* display: grid;
   grid-template-columns: min-content mAX-content;
-  grid-row: auto;
+  grid-row: auto; */
+  margin-left: 20%;
+  margin-right: 20%;
 }
 .nav-document{
   display: flexbox;
