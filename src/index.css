@@ -4,7 +4,6 @@
   object-fit: cover;
   margin: 0;
   grid-auto-flow: dense;
-
 }
 body {
   /* width: 1600px;
@@ -18,7 +17,6 @@ a {
   color: #fff;
   font-size: calc(14px + 6 * (100vw / 1920));
 }
-
 
 .top-header {
   background-color: #0d4cd3;
@@ -50,7 +48,7 @@ header {
 }
 /* Лого сайта */
 .logo {
-  margin-top: 6%; 
+  margin-top: 6%;
   display: flex;
   align-items: center;
   margin-left: 10%;
@@ -90,7 +88,7 @@ header {
   max-height: 400px;
   content: url(/src/image/nurcery.png);
 }
-@media (max-width: 800px) { 
+@media (max-width: 800px) {
   .nurcery-image {
     grid-column: 2;
     grid-row-start: 1;
@@ -98,17 +96,13 @@ header {
     max-height: 400px;
     content: url();
   }
-  
 
-  .not-free-img{
+  .not-free-img {
     content: url();
     width: 40%;
     border-radius: 15px 0 0 15px;
   }
 }
-
-
-
 
 /* Об учреждении */
 .About {
@@ -172,7 +166,7 @@ h1 {
   /* font-size: 15px; */
   font-weight: 500;
 }
-.a-link-forms{
+.a-link-forms {
   color: #222;
   font-size: calc(16px + 6 * (100vw / 920));
 }
@@ -204,7 +198,6 @@ h1 {
     border-radius: 10px;
     margin-top: 10%;
     margin-bottom: 5%;
-
   }
 
   .a-link-forms {
@@ -397,7 +390,6 @@ h1 {
   border: 5px solid #0d4cd3;
   border-radius: 15px;
   margin-right: 1%;
-
 }
 .news-item-img {
   height: auto;
@@ -407,7 +399,6 @@ h1 {
   border-radius: 15px;
   margin-left: 4%;
   margin-top: 4%;
-
 }
 .news-item-txt {
   /* display: grid; */
@@ -518,7 +509,6 @@ h1 {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 2%;
-  
 }
 .main-task-item {
   display: grid;
@@ -563,9 +553,8 @@ h1 {
   border-radius: 15px 0 0 15px;
 }
 
-@media (max-width: 800px) { 
-
-  .not-free-img{
+@media (max-width: 800px) {
+  .not-free-img {
     content: url();
     width: 40%;
     border-radius: 15px 0 0 15px;
@@ -609,68 +598,68 @@ h1 {
 .contact-item-img-1 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-2 {
   content: url(/src/image/contact/Vinnik1.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-3 {
   content: url(/src/image/contact/demin.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-4 {
   content: url(/src/image/contact/mangusheva.jpeg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-5 {
   content: url(/src/image/contact/dubina.jfif);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-6 {
   content: url(/src/image/contact/tuleshkaliev.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-7 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-8 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-9 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-10 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  width: 40%;
 }
 .contact-item-img-11 {
   content: url(/src/image/contact/Vyazovaya.jpg);
   border-radius: 15px;
+  width: 200px;
   height: auto;
-  min-width: 40%;
 }
 .contact-item-name {
   font-size: 19px;
@@ -715,7 +704,7 @@ h1 {
   .contact-item-img-9,
   .contact-item-img-10,
   .contact-item-img-11 {
-    width: 230px;
+    width: 200px;
     height: auto;
   }
 
@@ -742,7 +731,7 @@ h1 {
   content: url(/src/image/car.jpg);
   height: 200px;
   width: auto;
-  grid-column: 1;  
+  grid-column: 1;
   border-radius: 15px 0px 0px 15px;
 }
 
@@ -753,35 +742,34 @@ h1 {
   grid-template-columns: min-content auto;
   border-radius: 16px;
 }
-.news-page-item-txt{
+.news-page-item-txt {
   grid-column: 2;
   grid-row: 1;
   margin-left: 2%;
   margin-top: 2%;
 }
-.news-page-item-header{
-    margin-bottom: 2%;  
-    font-weight: 700;
-    font-size: calc(8px + 16 * (100vw / 1920));
+.news-page-item-header {
+  margin-bottom: 2%;
+  font-weight: 700;
+  font-size: calc(8px + 16 * (100vw / 1920));
 }
-.link-to-news{
+.link-to-news {
   margin-top: 2%;
 }
-form{
+form {
   display: flex;
 }
-.form-search{
+.form-search {
   margin-left: auto;
   margin-right: auto;
   max-width: 200px;
   display: flex;
 }
 
-.search-img{
+.search-img {
   content: url(/src/image/icons8-поиск.svg);
   height: auto;
   width: 25px;
-
 }
 @media (max-width: 480px) {
   .News {
@@ -837,48 +825,45 @@ form{
   }
 }
 /* Document */
-.Document{
+.Document {
   padding-top: 4%;
 }
-.document-container{
+.document-container {
   /* display: grid;
   grid-template-columns: min-content mAX-content;
   grid-row: auto; */
   margin-left: 20%;
   margin-right: 20%;
 }
-.nav-document{
+.nav-document {
   display: flexbox;
   position: inherit;
   margin-left: auto;
   margin-right: auto;
-
 }
-.ul-nav-document{
+.ul-nav-document {
   display: flexbox;
-
 }
-.li-nav-document{
+.li-nav-document {
   margin-right: 25px;
-  font-size: calc(6px + 9 *(100vw/1920));
+  font-size: calc(12px + 9 * (100vw / 1920));
   font-weight: 600;
   margin-bottom: 4%;
 }
-.a-nav-document{
+.a-nav-document {
   color: #222;
-  
 }
-.document-item-box{
+.document-item-box {
   border: 2px solid #222;
   border-radius: 15px;
   width: 50%;
   margin-top: 1%;
   margin-bottom: 1%;
 }
-.document-item{
+.document-item {
   margin: 1% 1% 1% 1%;
 }
-.a-news{
+.a-news {
   color: #222;
 }
 @media (max-width: 480px) {
@@ -920,37 +905,33 @@ form{
   }
 }
 /* Стоимость услуг */
-.cost{
+.cost {
   padding-top: 120px;
   padding-bottom: 20%;
   text-align: center;
-
 }
-.h1-cost{
-  font-size: calc(6px + 18 * (100vw/1920));
+.h1-cost {
+  font-size: calc(6px + 18 * (100vw / 1920));
 }
-.cost-desc{
+.cost-desc {
   margin: 1%;
-  font-size: calc(2px + 18 * (100vw/1920));
+  font-size: calc(2px + 18 * (100vw / 1920));
 }
-.selectors{
+.selectors {
   padding-left: 40%;
   padding-right: 40%;
-
-  
 }
-.selector-title-selector-text{
+.selector-title-selector-text {
   margin: 5%;
-  font-size: calc(2px + 18 * (100vw/1920));
+  font-size: calc(2px + 18 * (100vw / 1920));
   font-weight: 500;
   border: 2px solid #1c55c2;
   border-radius: 15px;
   max-width: 300px;
   cursor: pointer;
-  
 }
-.summ{
-  font-size: calc(2px + 18 * (100vw/1920));
+.summ {
+  font-size: calc(2px + 18 * (100vw / 1920));
   font-weight: 600;
 }
 @media (max-width: 880px) {
@@ -986,41 +967,40 @@ form{
   }
 }
 /* Форма связи */
-.contact-form{
+.contact-form {
   padding-top: 20%;
   border: 2px solid rgba(0, 0, 0, 0.6);
   text-align: center;
   padding-bottom: 20%;
-
 }
-.feedback-header{
-  font-size: calc(8px + 12 * (100vw/1920));
+.feedback-header {
+  font-size: calc(8px + 12 * (100vw / 1920));
 }
 /* .feedback-body__email{
   font-size: calc(8px + 12 * (100vw/1920));
 } */
-.feedback__label{
-  font-size: calc(8px + 12 * (100vw/1920));
+.feedback__label {
+  font-size: calc(8px + 12 * (100vw / 1920));
 }
 /* .feedback__message{
   font-size: calc(8px + 12 * (100vw/1920));
 } */
-.feedback__submit{
-  font-size: calc(8px + 12 * (100vw/1920));
+.feedback__submit {
+  font-size: calc(8px + 12 * (100vw / 1920));
 }
-.feedback-body{
+.feedback-body {
   display: grid;
   padding-left: 35%;
   padding-right: 35%;
 }
-.feedback-body__email{
+.feedback-body__email {
   margin-top: 5%;
   margin-bottom: 5%;
 }
-.feedback__message{
+.feedback__message {
   margin-bottom: 5%;
 }
-.feedback__submit{
+.feedback__submit {
   background-color: #1c55c2;
   color: #fff;
   border: none;
@@ -1030,7 +1010,6 @@ form{
   margin-top: 5%;
   cursor: pointer;
 }
-
 
 /* Подвал */
 footer {
@@ -1053,10 +1032,10 @@ footer {
   margin-left: 5%;
   width: 100px;
 }
-.contact-information{
+.contact-information {
   padding-left: 5%;
 }
-.copyrait{
+.copyrait {
   padding-left: 5%;
 }
 .regalia-two {
