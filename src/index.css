@@ -99,9 +99,6 @@ header {
     content: url();
   }
   
-  .contact-items{
-    display: block;
-  }
 
   .not-free-img{
     content: url();
@@ -530,6 +527,16 @@ h1 {
   width: 40%;
   border-radius: 15px 0 0 15px;
 }
+
+@media (max-width: 800px) { 
+
+  .not-free-img{
+    content: url();
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+  }
+}
+
 .not-free-img-txt {
   margin-left: 2%;
 }
@@ -571,31 +578,31 @@ h1 {
   width: 40%;
 }
 .contact-item-img-2 {
-  content: url(/src/image/contact/Vyazovaya.jpg);
+  content: url(/src/image/contact/Vinnik1.jpg);
   border-radius: 15px;
   height: auto;
   width: 40%;
 }
 .contact-item-img-3 {
-  content: url(/src/image/contact/Vyazovaya.jpg);
+  content: url(/src/image/contact/demin.jpg);
   border-radius: 15px;
   height: auto;
   width: 40%;
 }
 .contact-item-img-4 {
-  content: url(/src/image/contact/Vyazovaya.jpg);
+  content: url(/src/image/contact/mangusheva.jpeg);
   border-radius: 15px;
   height: auto;
   width: 40%;
 }
 .contact-item-img-5 {
-  content: url(/src/image/contact/Vyazovaya.jpg);
+  content: url(/src/image/contact/dubina.jfif);
   border-radius: 15px;
   height: auto;
   width: 40%;
 }
 .contact-item-img-6 {
-  content: url(/src/image/contact/Vyazovaya.jpg);
+  content: url(/src/image/contact/tuleshkaliev.jpg);
   border-radius: 15px;
   height: auto;
   width: 40%;
@@ -673,7 +680,8 @@ h1 {
   .contact-item-img-9,
   .contact-item-img-10,
   .contact-item-img-11 {
-    width: 60%;
+    width: 230px;
+    height: auto;
   }
 
   .contact-item-name,
