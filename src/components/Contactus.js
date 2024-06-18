@@ -14,6 +14,7 @@ export const Contactus = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          alert("Сообщение отправлено");
         },
         (error) => {
           console.log("FAILED...", error.text);

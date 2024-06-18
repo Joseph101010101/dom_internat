@@ -21,8 +21,8 @@ function App() {
       <Header />
       <About />
       <SomeForms />
-      <PosGosUslugi />
       <Newsblock />
+      <PosGosUslugi />
       <MainTask />
       <NotFree />
       <Contact />
