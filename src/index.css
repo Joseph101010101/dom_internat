@@ -16,8 +16,10 @@ body {
 a {
   text-decoration: none;
   color: #fff;
-  font-size: calc(14px + 6 * (100vw / 920));
+  font-size: calc(14px + 6 * (100vw / 1920));
 }
+
+
 .top-header {
   background-color: #0d4cd3;
   width: 100%;
@@ -96,6 +98,21 @@ header {
     max-height: 400px;
     content: url();
   }
+
+}
+
+@media (max-width: 800px) { 
+  .contact-items{
+    display: block;
+  }
+}
+
+@media (max-width: 800px) { 
+  .not-free-img{
+    content: url();
+    width: 40%;
+    border-radius: 15px 0 0 15px;
+  }
 }
 
 /* Об учреждении */
@@ -162,7 +179,7 @@ h1 {
 }
 .a-link-forms{
   color: #222;
-  font-size: calc(16px + 10 * (100vw / 920));
+  font-size: calc(16px + 6 * (100vw / 920));
 }
 /* Форма госуслуги */
 #js-show-iframe-wrapper {
