@@ -951,6 +951,38 @@ form{
   font-size: calc(2px + 18 * (100vw/1920));
   font-weight: 600;
 }
+@media (max-width: 880px) {
+  .cost {
+    padding-top: 60px;
+    padding-bottom: 10%;
+    text-align: center;
+  }
+  .h1-cost {
+    font-size: calc(6px + 14 * (100vw / 480));
+  }
+  .cost-desc {
+    margin: 3%;
+    font-size: calc(2px + 14 * (100vw / 480));
+  }
+  .selectors {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .selector-title-selector-text {
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: calc(2px + 14 * (100vw / 480));
+    font-weight: 500;
+    border: 2px solid #1c55c2;
+    border-radius: 10px;
+    max-width: 200px;
+    cursor: pointer;
+  }
+  .summ {
+    font-size: calc(2px + 14 * (100vw / 480));
+    font-weight: 600;
+  }
+}
 /* Форма связи */
 .contact-form{
   padding-top: 20%;
