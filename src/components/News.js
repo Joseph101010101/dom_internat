@@ -1,5 +1,6 @@
-import React from "react";
-import SomeForms from "./SomeForms";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import NewsMain from './NewsMain';
 
 const data = [
   {
@@ -39,10 +40,9 @@ const data = [
   },
 ];
 
-export default function News() {
+const News = () => {
   return (
     <div className="News">
-      <SomeForms />
       <div className="news-header">
         <h2>Новости</h2>
       </div>
@@ -53,11 +53,15 @@ export default function News() {
             <div className="news-page-item-txt">
               <div className="news-page-item-header">{item.title}</div>
               <div className="news-page-item-desc">{item.text}</div>
-              <div className="link-to-news">Подробнее...</div>
+              <NavLink to={`/news-main/${item.id}`} className="link-to-news">
+                Подробнее...
+              </NavLink>
             </div>
           </div>
         ))}
       </div>
     </div>
   );
-}
+};
+
+export default News;

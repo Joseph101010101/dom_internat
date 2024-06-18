@@ -13,6 +13,8 @@ import Contactus from "./components/Contactus.js";
 import Cost from "./components/Cost.js";
 import { Link, NavLink } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Zayavka from "./components/Zayavka.js";
+import Zayavkatwo from "./components/Zayavkatwo.js";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
       <PosGosUslugi />
       <MainTask />
       <NotFree />
+      <Zayavka/>
+      <Zayavkatwo/>
       <Contact />
       <Routes>
         <Route path="https://pos.gosuslugi.ru" element={() => {

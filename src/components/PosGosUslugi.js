@@ -20,10 +20,10 @@ export default function PosGosUslugi() {
         <div class="bf-2__content">
           <div class="bf-2__description">
             <span class="bf-2__text">
-              Не убран мусор, яма на дороге, не горит фонарь?
+            Есть предложения по улучшению социальной сферы, 
             </span>
             <span class="bf-2__text bf-2__text_small">
-              Столкнулись с проблемой&nbsp;— сообщите о ней!
+            повышению эффективности служб занятости или другие вопросы?
             </span>
           </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { NavLink } from 'react-router-dom';
 const data = [
   {
     id: 1,
@@ -31,7 +31,9 @@ export default function Newsblock() {
             <div className="news-item-txt">
               <div className="news-item-header"><p>{item.title}</p></div>
               <div className="news-item-desc"><p>{item.text}</p></div>
-              <div className="news-item-more"><p>Подробнее...</p></div>
+              <NavLink to={`/news-main/${item.id}`} className="link-to-news">
+                Подробнее...
+              </NavLink>
             </div>
           </div>
         ))}

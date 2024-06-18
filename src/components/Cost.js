@@ -2,38 +2,38 @@ import React, { useState } from "react";
 const data = [
   {
     id: 1,
-    title: "Услуга 1",
-    price: 100,
+    title: "Стирка белья",
+    price: 300,
   },
   {
     id: 2,
-    title: "Услуга 2",
-    price: 1002,
+    title: "Массаж 12 сеансов",
+    price: 1500,
   },
   {
     id: 3,
-    title: "Услуга 3",
-    price: 1002,
+    title: "Доставка пищи из столовой в комнату",
+    price: 900,
   },
   {
     id: 4,
-    title: "Услуга 4",
-    price: 1002,
+    title: "Услуги стрижки волос (мужская)",
+    price: 250,
   },
   {
     id: 5,
-    title: "Услуга 5",
-    price: 1002,
+    title: "Услуги стрижки волос (женская)",
+    price: 300,
   },
   {
     id: 6,
-    title: "Услуга 6",
-    price: 1002,
+    title: "Услуги стрижки волос + окрашивание (женская)",
+    price: 600,
   },
   {
     id: 7,
-    title: "Услуга 7",
-    price: 1002,
+    title: "Стрижка налысо",
+    price: 52,
   },
 ];
 export default function Cost() {
@@ -57,7 +57,7 @@ export default function Cost() {
     <div className="cost">
       <h1 className="h1-cost">Расчёт стоимости услуг</h1>
       <p className="cost-desc">
-        Узнайте стоимости набора платных услуг. Выберите необходимое.
+        Узнайте стоимости набора платных услуг. Выберите необходимое.<br/> Все цены указаны за месяц обслуживания.
       </p>
       <div className="selectors">
         {data.map((selector) => (

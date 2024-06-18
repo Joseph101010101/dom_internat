@@ -11,6 +11,7 @@ import HeaderTop from "./components/HeaderTop.js";
 import Contactus from "./components/Contactus.js";
 
 import Cost from "./components/Cost.js";
+import ZayavkaForm from "./components/ZayavkaForm.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <BrowserRouter>
       <HeaderTop />
       <Routes>
+      <Route path="/formazayavky" element={<ZayavkaForm/>}/>
       <Route path="https://pos.gosuslugi.ru" element={() => {
           window.location.href ="https://pos.gosuslugi.ru"
         }}/>
