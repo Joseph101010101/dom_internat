@@ -29,11 +29,11 @@ const ZayavkaForm = () => {
       <div className="feedback-header">Оставьте заявку при помощи <br/>формы подачи заявки</div>
       <form className="feedback-body" ref={form} onSubmit={sendEmail}>
         <label className="feedback__label">Имя</label>
-        <input className="" type="text" name="user_name" />
+        <input className="feedback__input" type="text" name="user_name" />
         <label className="feedback__label">Email</label>
-        <input className="" type="email" name="user_email" />
+        <input className="feedback__input" type="email" name="user_email" />
         <label className="feedback__label">Номер</label>
-        <input className="" type="phone" name="user_phone" />
+        <input className="feedback__input" type="phone" name="user_phone" />
         <div className="checkbox-group">
         <label className="feedback__label">Выберите желаемый тип размещения</label>
       <input

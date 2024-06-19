@@ -3,18 +3,18 @@ import { NavLink } from 'react-router-dom';
 const data = [
   {
     id: 1,
-    title: "Услуга 1",
-    text: "Дцвщцщаца щзцл ащзцащзц лащзащ зцлащ защзцлащзащзц",
+    title: "Новость 1",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 2,
-    title: "Услуга 2",
-    text: "100210 0100 10010 010010010010 0100100100",
+    title: "Новость 2",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 3,
-    title: "Услуга 3",
-    text: "10021001 00100100 10010010 0100100 100100",
+    title: "Новость 3",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   }
 ];
 
@@ -27,7 +27,7 @@ export default function Newsblock() {
       <div className="news-item-block">
         {data.map((item) => (
           <div key={item.id} className="news-item">
-            <div className="news-item-img"></div>
+            <div className="news-item-img"><image href={item.image}/></div>
             <div className="news-item-txt">
               <div className="news-item-header"><p>{item.title}</p></div>
               <div className="news-item-desc"><p>{item.text}</p></div>

@@ -732,7 +732,7 @@ h1 {
   height: 200px;
   width: auto;
   grid-column: 1;
-  border-radius: 15px 0px 0px 15px;
+  /* border-radius: 15px 0px 0px 15px; */
 }
 
 .news-page-item {
@@ -740,7 +740,7 @@ h1 {
   margin: 2%;
   display: grid;
   grid-template-columns: min-content auto;
-  border-radius: 16px;
+  border-radius:0px 15px 15px 0px ;
 }
 .news-page-item-txt {
   grid-column: 2;
@@ -787,7 +787,7 @@ form {
     height: 120px;
     width: auto;
     grid-column: 1;
-    border-radius: 12px 0px 0px 12px;
+    /* border-radius: 12px 0px 0px 12px; */
   }
   .news-page-item {
     border: 2px solid #222;
@@ -1046,48 +1046,50 @@ form {
 }
 /* Форма связи */
 .contact-form {
-  padding-top: 20%;
-  border: 2px solid rgba(0, 0, 0, 0.6);
-  text-align: center;
+  width: 50%;
+  margin: 0 auto;
   padding-bottom: 20%;
+  padding-top: 10%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.feedback-header {
-  font-size: calc(8px + 12 * (100vw / 1920));
-}
-/* .feedback-body__email{
-  font-size: calc(8px + 12 * (100vw/1920));
-} */
-.feedback__label {
-  font-size: calc(8px + 12 * (100vw / 1920));
-}
-/* .feedback__message{
-  font-size: calc(8px + 12 * (100vw/1920));
-} */
-.feedback__submit {
-  font-size: calc(8px + 12 * (100vw / 1920));
-}
+
 .feedback-body {
-  display: grid;
-  padding-left: 35%;
-  padding-right: 35%;
+  display: block;
+  margin-bottom: 20px;
 }
-.feedback-body__email {
-  margin-top: 5%;
-  margin-bottom: 5%;
+.feedback-header{
+  font-size: calc(16px + 6 * (100vw / 1920));
+  margin-bottom: 2%;
 }
-.feedback__message {
-  margin-bottom: 5%;
+.feedback__label {
+  display: block;
+  margin-bottom: 10px;
 }
+
+.feedback__input {
+  width: 90%;
+  height: 25px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #1c55c2;
+}
+
 .feedback__submit {
+  width: 50%;
+  height: 40px;
   background-color: #1c55c2;
   color: #fff;
   border: none;
-  width: 40%;
-  height: 120%;
-  border-radius: 15px;
-  margin-top: 5%;
+  border-radius: 5px;
   cursor: pointer;
 }
+
+.feedback__submit:hover {
+  background-color: #1c55c2;}
 /*  */
 .banner {
   background-color: #1c55c2;
@@ -1128,9 +1130,11 @@ form {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 20px;
+  margin-top: 2%;
 }
-
+span{
+  margin-bottom: 2%;
+}
 .checkbox-group input[type="checkbox"] {
   margin-right: 10px;
 }

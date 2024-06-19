@@ -5,38 +5,38 @@ import NewsMain from './NewsMain';
 const data = [
   {
     id: 1,
-    title: "Услуга 1",
-    text: "100",
+    title: "Новость 1",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 2,
-    title: "Услуга 2",
-    text: "1002",
+    title: "Новость 2",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 3,
-    title: "Услуга 3",
-    text: "1002",
+    title: "Новость 3",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 4,
-    title: "Услуга 4",
-    text: "1002",
+    title: "Новость 4",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 5,
-    title: "Услуга 5",
-    text: "1002",
+    title: "Новость 5",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 6,
-    title: "Услуга 6",
-    text: "1002",
+    title: "Новость 6",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
   {
     id: 7,
-    title: "Услуга 7",
-    text: "1002",
+    title: "Новость 7",
+    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
   },
 ];
 
