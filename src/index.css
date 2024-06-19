@@ -723,9 +723,16 @@ h1 {
 
 .news-page-item-box {
   max-width: 1000px;
-
   margin-left: auto;
   margin-right: auto;
+}
+
+.news-page-item {
+  border: 3px solid #222;
+  margin: 2%;
+  /* display: grid; */
+  grid-template-columns: min-content auto;
+  border-radius: 0px 15px 15px 0px;
 }
 
 .news-page-item-img {
@@ -734,34 +741,30 @@ h1 {
   height: 200px;
   width: auto;
   grid-column: 1;
-  /* border-radius: 15px 0px 0px 15px; */
 }
 
-.news-page-item {
-  border: 3px solid #222;
-  margin: 2%;
-  display: grid;
-  grid-template-columns: min-content auto;
-  border-radius:0px 15px 15px 0px ;
-}
 .news-page-item-txt {
   grid-column: 2;
   grid-row: 1;
   margin-left: 2%;
   margin-top: 2%;
 }
+
 .news-page-item-header {
   margin-bottom: 2%;
   font-weight: 700;
   font-size: calc(8px + 16 * (100vw / 1920));
 }
+
 .link-to-news {
   margin-top: 2%;
-  color:#222;
+  color: #222;
 }
+
 form {
   display: flex;
 }
+
 .form-search {
   margin-left: auto;
   margin-right: auto;
@@ -769,58 +772,48 @@ form {
   display: flex;
 }
 
-.search-img {
-  content: url(/src/image/icons8-поиск.svg);
-  height: auto;
-  width: 25px;
-}
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .News {
     padding: 4%;
   }
+
   .news-page-item-box {
     max-width: 100%;
     margin-left: 2%;
     margin-right: 2%;
   }
+
   .news-page-item-img {
-    object-fit: fill;
-    content: url(/src/image/car.jpg);
-    height: 120px;
-    width: auto;
-    grid-column: 1;
-    /* border-radius: 12px 0px 0px 12px; */
+    height: 150px;
   }
+
+  .news-page-item-header {
+    font-size: calc(8px + 12 * (100vw / 768));
+  }
+
+  .form-search {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  .news-page-item-img {
+    height: 120px;
+  }
+
   .news-page-item {
     border: 2px solid #222;
-    margin: 2%;
-    display: grid;
-    grid-template-columns: min-content auto;
     border-radius: 10px;
   }
-  .news-page-item-txt {
-    grid-column: 2;
-    grid-row: 1;
-    margin-left: 2%;
-    margin-top: 2%;
-  }
+
   .news-page-item-header {
-    margin-bottom: 2%;
-    font-weight: 700;
     font-size: calc(8px + 10 * (100vw / 480));
   }
-  .link-to-news {
-    margin-top: 2%;
-  }
-  form {
-    display: flex;
-  }
+
   .form-search {
-    margin-left: auto;
-    margin-right: auto;
     max-width: 120px;
-    display: flex;
   }
+
   .search-img {
     content: url(/src/image/icons8-поиск.svg);
     height: auto;

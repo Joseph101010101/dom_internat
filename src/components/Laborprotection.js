@@ -15,9 +15,9 @@ const documentData = [
 
 ];
 
-export default function Anticorruption() {
+export default function Laborprotection() {
   return (
-    <div className="Document">
+      <div className="Document">
       <div className="document-container">
         <h3>Охрана труда</h3>
         <div className="document-place">

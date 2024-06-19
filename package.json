@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "@yandex/smart-captcha": "2.6.0",
     "airtable": "^0.12.2",
+    "axios": "^1.7.2",
     "buffer": "^6.0.3",
     "emailjs-com": "^3.2.0",
     "gh-pages": "^6.1.1",
