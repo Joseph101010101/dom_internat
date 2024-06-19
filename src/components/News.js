@@ -1,55 +1,64 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import NewsMain from './NewsMain';
+import SomeForms from './SomeForms';
 
 const data = [
   {
     id: 1,
-    title: "Новость 1",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 1",
+    text: "100",
+    image: "https://via.placeholder.com/300x200",
   },
   {
     id: 2,
-    title: "Новость 2",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 2",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
   {
     id: 3,
-    title: "Новость 3",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 3",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
   {
     id: 4,
-    title: "Новость 4",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 4",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
   {
     id: 5,
-    title: "Новость 5",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 5",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
   {
     id: 6,
-    title: "Новость 6",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 6",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
   {
     id: 7,
-    title: "Новость 7",
-    text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+    title: "Услуга 7",
+    text: "1002",
+    image: "https://via.placeholder.com/300x200"
   },
 ];
 
 const News = () => {
   return (
     <div className="News">
+      <SomeForms/>
       <div className="news-header">
         <h2>Новости</h2>
       </div>
       <div className="news-page-item-box">
         {data.map((item) => (
           <div key={item.id} className="news-page-item">
-            <div className="news-page-item-img"></div>
+            <img lassName="news-page-item-img" src={item.image}></img>
             <div className="news-page-item-txt">
               <div className="news-page-item-header">{item.title}</div>
               <div className="news-page-item-desc">{item.text}</div>

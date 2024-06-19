@@ -131,7 +131,7 @@ h1 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   text-align: center;
-  padding-top: 1%;
+  padding-top: 5%;
   padding-bottom: 1%;
 }
 .form-one {
@@ -524,7 +524,7 @@ h1 {
 }
 .main-task-item-desc {
   grid-column: 2;
-  margin-top: 15px;
+  /* margin-top: 15px; */
 }
 .main-task-item-img {
   content: url(/src/image/accessibility_new.svg);
@@ -538,6 +538,8 @@ h1 {
   grid-row-end: 3;
   border-radius: 0 0 15px 15px;
 }
+
+
 /* Платные услуги */
 .not-free {
   margin-top: 1%;
@@ -774,7 +776,7 @@ form {
 }
 @media (max-width: 480px) {
   .News {
-    padding-top: 4%;
+    padding: 4%;
   }
   .news-page-item-box {
     max-width: 100%;
@@ -827,30 +829,41 @@ form {
 }
 /*  */
 .NewsMain {
-  padding: 20px;
-  font-family: Arial, sans-serif;
+  max-width: 800px;
+  /* margin: 40px auto; */
+  padding: 20vw 30vw 20vw 30vw ;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.NewsMain img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
 }
 
 .NewsMain h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  margin-top: 0;
 }
 
 .NewsMain p {
   font-size: 16px;
-  margin-bottom: 20px;
+  color: #666;
 }
 
-.NewsMain img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 10px;
+.NewsMain a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+.NewsMain a:hover {
+  color: #23527c;
 }
 
 .NewsMain .news-item {
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 20vw;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -868,14 +881,14 @@ form {
 
 .NewsMain .news-item img {
   width: 100%;
-  height: 150px;
+  height: auto;
   object-fit: cover;
   border-radius: 10px;
 }
 
 @media (max-width: 480px) {
   .NewsMain {
-    padding: 10px;
+    padding: 20vw;
   }
   .NewsMain h2 {
     font-size: 18px;
@@ -885,7 +898,7 @@ form {
   }
   .NewsMain img {
     width: 100%;
-    height: 100px;
+    height: 150px;
   }
   .NewsMain .news-item {
     margin-bottom: 10px;
@@ -904,7 +917,7 @@ form {
 }
 /* Document */
 .Document {
-  padding-top: 4%;
+  padding-top: 1%;
 }
 .document-container {
   /* display: grid;
@@ -934,7 +947,7 @@ form {
 .document-item-box {
   border: 2px solid #222;
   border-radius: 15px;
-  width: 50%;
+  width: 100%;
   margin-top: 1%;
   margin-bottom: 1%;
 }

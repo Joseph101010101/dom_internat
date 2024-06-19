@@ -1,44 +1,52 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
+
 const NewsMain = () => {
-  const { id } = useParams("/news");
+  const { id } = useParams();
 
   const data = [
     {
       id: 1,
-      title: "Услуга 1",
-      text: "100",
+      title: "Новость 1",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 2,
-      title: "Услуга 2",
-      text: "1002",
+      title: "Новость 2",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 3,
-      title: "Услуга 3",
-      text: "1002",
+      title: "Новость 3",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 4,
-      title: "Услуга 4",
-      text: "1002",
+      title: "Новость 4",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 5,
-      title: "Услуга 5",
-      text: "1002",
+      title: "Новость 5",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 6,
-      title: "Услуга 6",
-      text: "1002",
+      title: "Новость 6",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
     {
       id: 7,
-      title: "Услуга 7",
-      text: "1002",
+      title: "Новость 7",
+      text: "Lorem ipsum set amen, set dollar amen. Lorem ipsum set amen, set dollar amen.Lorem ipsum set amen, set dollar amen.2",
+      image: "https://via.placeholder.com/300x200", // Replace with your image URL
     },
   ];
 
@@ -49,10 +57,12 @@ const NewsMain = () => {
   }
 
   return (
-    <div>
+    <div className="NewsMain">
+      <img src={newsItem.image} alt={newsItem.title} />
       <h2>{newsItem.title}</h2>
       <p>{newsItem.text}</p>
     </div>
   );
 };
+
 export default NewsMain;
