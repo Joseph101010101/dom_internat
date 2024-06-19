@@ -394,7 +394,6 @@ h1 {
 .news-item-img {
   height: auto;
   width: 70%;
-  content: url(/src/image/car.jpg);
   border: 1px solid #0d4cd3;
   border-radius: 15px;
   margin-left: 4%;
@@ -449,7 +448,6 @@ h1 {
   .news-item-img {
     height: auto;
     width: 80%;
-    content: url(/src/image/car.jpg);
     border: 1px solid #0d4cd3;
     border-radius: 10px;
     margin-left: 4%;

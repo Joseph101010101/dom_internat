@@ -15,7 +15,7 @@ export default function Header() {
       </div>
       <div className="nav-menu">
         <button className="nav-button"><a href="#about">Об учреждении</a></button>
-        <button className="nav-button"><a href="#news">Лента</a></button>
+        <button className="nav-button"><a href="#news">Последние новости</a></button>
         <button className="nav-button"><a href="#maintask">Наши задачи</a></button>
         <button className="nav-button" ><a href="#notfree">Платные услуги</a></button>
         <button className="nav-button"><a href="#contact">Контакты</a></button>

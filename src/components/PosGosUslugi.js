@@ -30,7 +30,7 @@ export default function PosGosUslugi() {
           <div class="bf-2__btn-wrap">
             <button class="pos-banner-btn_2" type="button">
             <NavLink  to={"https://pos.gosuslugi.ru"}>
-              Сообщить опроблеме
+              Сообщить о проблеме
             </NavLink>
             </button>
           </div>
