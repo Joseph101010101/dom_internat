@@ -147,7 +147,7 @@ h1 {
   border-radius: 15px;
 }
 .forms-txt {
-  font-size: calc(16px + 10 * (100vw / 920));
+  font-size: calc(16px + 4 * (100vw / 920));
   margin-top: 2%;
   margin-bottom: 1%;
   /* font-size: 20px; */
@@ -735,7 +735,6 @@ h1 {
 
 .news-page-item-img {
   object-fit: fill;
-  content: url(/src/image/car.jpg);
   height: 200px;
   width: auto;
   grid-column: 1;
