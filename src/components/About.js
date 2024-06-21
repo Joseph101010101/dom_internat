@@ -39,6 +39,10 @@ export default function About() {
           52-12-93 (приёмная).<br></br>
           Адрес электронной почты: adi07@mail.ru{" "}
         </p>
+
+        <div className="map-container">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A6aee4b777ac620d26a08bd2c88e71bcaf3ead0124166ceb15acc95b283a5f0e8&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+        </div>
       </div>
     </div>
   );
