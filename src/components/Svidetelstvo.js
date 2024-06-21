@@ -1,23 +1,46 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import axios from "axios";
 import { Link } from "react-router-dom";
 import SomeForms from "./SomeForms";
 
-const documentData = [
-  {
-    id: 1,
-    name_document: "Свидетельство о постановке на учет в налоговом органе",
-    document_src: "https://dom-prestarelih.astr.socinfo.ru/media/2023/01/26/1288208804/Svidetel_stvo.pdf",
+export default function Svidetelstvo() {
+  const [documentData, setDocumentData] = useState([]);
+  const [filteredData, setFilteredData] = useState([]);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const url = new URL('https://66759acaa8d2b4d072f0c256.mockapi.io/documents');
+    url.searchParams.append('type', 'svidetelstvo');
+
+    axios.get(url, {
+      method: 'GET',
+      headers: {'content-type':'application/json'},
+    })
+      .then((response) => {
+        setDocumentData(response.data);
+        setFilteredData(response.data.filter((item) => item.type === 'svidetelstvo'));
+      })
+      .catch((error) => {
+        setError(error);
+        console.error(error);
+      });
+  }, []);
+
+  if (error) {
+    return (
+      <div>
+        <h2>Error: {error.message}</h2>
+        <p>Please try again later.</p>
+      </div>
+    );
   }
 
-];
-
-export default function Svidetelstvo() {
   return (
     <div className="Document">
       <div className="document-container">
         <h3>Свидетельство о постановке на учет в налоговом органе</h3>
         <div className="document-place">
-          {documentData.map((item) => (
+          {filteredData.map((item) => (
             <div key={item.id} className="document-item-box">
               <div className="document-item">
                 <a className="a-news" href={item.document_src}>{item.name_document}</a>
@@ -27,4 +50,5 @@ export default function Svidetelstvo() {
         </div>
       </div>
     </div>
-  );}
+  );
+}
