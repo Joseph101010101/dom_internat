@@ -151,8 +151,8 @@ function ReportIssueBanner() {
         </div>
         <div className="bf-2__content">
           <div className="bf-2__description">
-            <span className="bf-2__text">Не убран мусор, яма на дороге, не горит фонарь?</span>
-            <span className="bf-2__text bf-2__text_small">Столкнулись с проблемой — сообщите о ней!</span>
+            <span className="bf-2__text">Есть предложения по улучшению социальной сферы, </span>
+            <span className="bf-2__text bf-2__text_small">повышению эффективности служб занятости или другие вопросы?</span>
           </div>
           <div className="bf-2__btn-wrap">
             <button
